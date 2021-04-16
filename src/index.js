@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let todo=document.getElementById('tasks').innerHTML=description;
     event.preventDefault();
 
-    });
+    })
 
 
 
