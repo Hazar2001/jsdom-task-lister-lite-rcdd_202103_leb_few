@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const input = document.getElementByType('submit');
     input.addEventListener('click', function(event) {
     let todo=document.getElementById('tasks').innerHTML=description;
+    event.preventDefault();
 
     });
 
