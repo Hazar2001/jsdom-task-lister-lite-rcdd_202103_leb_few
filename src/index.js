@@ -3,8 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const input = document.getElementById('input');
     input.addEventListener('click', function(event) {
-     let input=document.getElementById('tasks');
-     input.createElement('li').innerHTML+=document.getElementById('new-task-description').value;
+     let ul=document.getElementById('tasks');
+     let li=document.createElement('li');
+      ul.appendChild(li);
+     li.innerHTML+=document.getElementById('new-task-description').value;
     event.preventDefault();
 
   });
